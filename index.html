@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/night.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>Interim solution</h3>
+          <img src="Interim.svg" width="100%" />
+        </section>
+        <section>
+          <h3>Rule-Based vs AI-Assisted Document Reading</h3>
+        </section>
+        <section>
+          <h5>Solution 1: Keyword Setup and Rule-Based Document Reading</h5>
+          <img src="sol1.svg" width="100%" />
+        </section>
+        <section>
+          <h5>Solution 1: Keyword Setup and Rule-Based Document Reading</h5>
+          <img src="sol1_pros&cons.svg" width="100%" />
+        </section>
+        <section>
+          <h5>
+            Solution 2: AI-Assisted Document Reading and Extraction Workflow
+          </h5>
+          <img src="sol2.svg" width="100%" />
+        </section>
+        <section>
+          <h5>
+            Solution 2: AI-Assisted Document Reading and Extraction Workflow
+          </h5>
+          <img src="sol2_pros&cons.svg" width="100%" />
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: "c/t",
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
